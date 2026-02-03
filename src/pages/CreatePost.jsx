@@ -8,7 +8,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/components/ui/select.jsx";
 import { Label } from "@/components/ui/label.jsx";
 import { Card } from "@/components/ui/card.jsx";
 import { Check, Info, NotebookPen } from "lucide-react";
