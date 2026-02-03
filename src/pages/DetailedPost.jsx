@@ -1,4 +1,4 @@
-import { Button } from '@/Components/ui/button';
+import { Button } from '@/Components/ui/button.jsx';
 import { useQueryClient } from '@tanstack/react-query';
 import { ArrowLeft, Calendar, User } from 'lucide-react';
 import React, { useEffect, useState } from 'react'

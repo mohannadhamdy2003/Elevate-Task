@@ -2,7 +2,7 @@ import { POSTS } from "@/Api/api";
 import api from "@/Api/axios";
 import { useQuery } from "@tanstack/react-query";
 import React, { useState, useEffect } from "react";
-import Footer from "./Footer";
+import Footer from "./Footer.jsx";
 import { Link } from "react-router-dom";
 
 const Post = ({ search = "", authorId = "" }) => {

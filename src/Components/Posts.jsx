@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import { Card } from "./ui/card";
 import { Plus, ScrollText, Search } from "lucide-react";
-import { Field } from "./ui/field";
-import { Input } from "./ui/input";
+import { Field } from "./ui/field.jsx";
+import { Input } from "./ui/input.jsx";
 import { NativeSelect, NativeSelectOption } from "./ui/native-select";
-import { Label } from "./ui/label";
-import Post from "./Post";
+import { Label } from "./ui/label.jsx";
+import Post from "./Post.jsx";
 
 import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
