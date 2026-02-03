@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import DetailedPost from "./pages/DetailedPost";
-import Posts from "./Components/Posts";
-import CreatePost from "./pages/CreatePost";
+import Home from "./pages/Home.jsx";
+import DetailedPost from "./pages/DetailedPost.jsx";
+import Posts from "./Components/Posts.jsx";
+import CreatePost from "./pages/CreatePost.jsx";
 import { Toaster } from "sonner";
 
 const App = () => {
