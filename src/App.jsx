@@ -1,7 +1,7 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import DetailedPost from "./pages/DetailedPost.jsx";
-import Posts from "./Components/Posts.jsx";
+import Posts from "./components/Posts.jsx";
 import CreatePost from "./pages/CreatePost.jsx";
 import { Toaster } from "sonner";
 

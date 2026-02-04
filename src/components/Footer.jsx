@@ -6,7 +6,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/Components/ui/pagination.jsx";
+} from "@/components/ui/pagination.jsx";
 
 export default function Footer({ currentPage, totalPages, onPageChange,className }) {
   if (totalPages === 0) return null; 
