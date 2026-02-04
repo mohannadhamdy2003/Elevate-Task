@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import DetailedPost from "./pages/DetailedPost.jsx";
 import Posts from "./Components/Posts.jsx";
@@ -7,7 +7,7 @@ import { Toaster } from "sonner";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Toaster
         position="bottom-right"
         toastOptions={{
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/newpost" element={<CreatePost />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

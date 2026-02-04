@@ -1,16 +1,16 @@
 import React from "react";
-import { Input } from "@/components/ui/input.jsx";
-import { Textarea } from "@/components/ui/textarea.jsx";
-import { Button } from "@/components/ui/button.jsx";
+import { Input } from "@/Components/ui/input.jsx";
+import { Textarea } from "@/Components/ui/textarea.jsx";
+import { Button } from "@/Components/ui/button.jsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select.jsx";
-import { Label } from "@/components/ui/label.jsx";
-import { Card } from "@/components/ui/card.jsx";
+} from "@/Components/ui/select.jsx";
+import { Label } from "@/Components/ui/label.jsx";
+import { Card } from "@/Components/ui/card.jsx";
 import { Check, Info, NotebookPen } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import api from "@/Api/axios";
